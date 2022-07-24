@@ -3,23 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://irhoppe.github.io/cv/</loc>
-    <lastmod>2022-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://irhoppe.github.io/</loc>
-    <lastmod>2022-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://irhoppe.github.io/geography/</loc>
-    <lastmod>2019-07-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://irhoppe.github.io/treks/</loc>
-    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,6 +12,10 @@
   
   <url>
     <loc>https://irhoppe.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://irhoppe.github.io/</loc>
   </url>
   
   <url>
