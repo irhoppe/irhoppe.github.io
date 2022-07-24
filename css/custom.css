@@ -28,15 +28,15 @@
   text-indent:  -20px;
 }
 
-.block2{
+.block{
   font-size:    14px;
   line-height:  1.4;
 }
 
 .irlist{
-  font-size:    11px;
+  font-size:    12px;
   color:        grey;
-  line-height:  2;
+  line-height:  1.8;
 }
 
 .fnote{
