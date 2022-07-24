@@ -1,0 +1,47 @@
+
+/* serif latin-ext */
+@font-face{
+    font-family: 'Ibarra Real Nova', serif;
+    font-style:  normal;
+    font-weight: 400;
+    src:         url(https://fonts.gstatic.com/s/ibarrarealnova/v1/sZlfdQiA-DBIDCcaWtQzL4BZHoiDkHVYEexu.woff2) format( 'woff2' );
+}
+
+@font-face{
+    font-family: 'Open Sans', sans-serif;
+    font-style:  normal;
+    font-weight: 400;
+    src:         url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFW50bbck.woff2) format( 'woff2' );
+}
+
+.irblock{
+  font-size:    14px;
+  color:        grey;
+  line-height:  1.2;
+}
+
+.irpub{
+  font-size:    14px;
+  color:        grey;
+  line-height:  1.2;
+  padding-left: 20px;
+  text-indent:  -20px;
+}
+
+.block2{
+  font-size:    14px;
+  line-height:  1.4;
+}
+
+.irlist{
+  font-size:    11px;
+  color:        grey;
+  line-height:  2;
+}
+
+.fnote{
+  font-size:    12px;
+  color:        grey;
+  line-height:  1
+  float:        right;
+}
