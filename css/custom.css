@@ -14,6 +14,10 @@
     src:         url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFW50bbck.woff2) format( 'woff2' );
 }
 
+.h5{
+  font: italic;
+}
+
 .irblock{
   font-size:    14px;
   color:        grey;
