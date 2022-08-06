@@ -6,10 +6,19 @@
     <description>Recent content on Ian Hoppe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://irhoppe.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Projects</title>
+      <link>https://irhoppe.github.io/research/</link>
+      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhoppe.github.io/research/</guid>
+      <description>Noumenon</description>
+    </item>
     
     <item>
       <title>Curriculum vitae</title>
