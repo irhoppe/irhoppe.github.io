@@ -97,6 +97,6 @@
   display: none;
 }
 
-.poem i0{dpsplay:block; margin-left:2em;}
-.poem i1{dpsplay:block; margin-left:3em;}
-.poem i2{dpsplay:block; margin-left:4em;}
+.poem.i0{dpsplay:block; margin-left:2em;}
+.poem.i1{dpsplay:block; margin-left:3em;}
+.poem.i2{dpsplay:block; margin-left:4em;}

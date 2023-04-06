@@ -6,10 +6,26 @@
     <description>Recent content on Ian Hoppe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://irhoppe.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Curriculum vitae</title>
+      <link>https://irhoppe.github.io/cv/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhoppe.github.io/cv/</guid>
+      <description>Ian Hoppe PhD student
+School of Biological Sciences
+Monash University
+email: ian.hoppe@monash.edu
+web: irhoppe.github.io
+EducationM.Sc., 2021. University of Nebraska–Lincoln. Lincoln, NE.
+B.S., 2014. University of Nebraska–Lincoln. Lincoln, NE.
+PublicationsPublished and in pressAE Johnson, JF Welklin, IR Hoppe, &amp;amp; D Shizuka (2023) Ecogeography of group size suggests differences in drivers of sociality among cooperatively breeding fairywrens. Proceedings of the Royal Society B 290:20222397. 10.</description>
+    </item>
     
     <item>
       <title>Projects</title>
@@ -18,23 +34,6 @@
       
       <guid>https://irhoppe.github.io/research/</guid>
       <description>$(document).ready(function(){$(&#39;[data-toggle=&#34;tooltip&#34;]&#39;).tooltip(); });Social ecology of wildlife diseaseEncounters between individuals comprise the webs of interactions through which social animals transmit information and provide material support. They also serve as conduits of infection. While social interactions (and the diseases they parasites and pathogens) are generally considered from the perspective of individual host species, multi-host pathogens (those capable of infecting multiple species; think bird flu, Ebola virus disease, and COVID-19) travel along expanded networks including additional connections between individuals of different species.</description>
-    </item>
-    
-    <item>
-      <title>Curriculum vitae</title>
-      <link>https://irhoppe.github.io/cv/</link>
-      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://irhoppe.github.io/cv/</guid>
-      <description>Ian HoppePhD student
-School of Biological Sciences
-Monash University
-email: ian.hoppe@monash.edu
-web: irhoppe.github.io
-EducationM.Sc., 2021. University of Nebraska–Lincoln. Lincoln, NE.
-B.S., 2014. University of Nebraska–Lincoln. Lincoln, NE.
-PublicationsPublished and in pressIR Hoppe, AE Johnson, &amp;amp; E VanWormer (In Press) Haemosporidian parasite diversity in an under-surveyed Australian avifauna. Emu. 10.1080/01584197.2022.2105722
-JA Jones, KJ Odom, IR Hoppe, D Nason, S Ketaloya, &amp;amp; J Karubian (2021) Correlated evolution of distinct signals associated with increased social selection in female white-shouldered fairywrens.</description>
     </item>
     
     <item>
