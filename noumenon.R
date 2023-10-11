@@ -12,13 +12,11 @@ totitle <- function(x){ # convenience function for changing case of EPA ecoregio
     gsub("Usa", "USA", x)
 }
 
-mapkey <- read.csv("../data/noumenon/key.csv", colClasses="character", na.strings="") %>%   # import metadata and create HTML tag for referencing local audio files (when available)
-    mutate(SRC=case_when(!is.na(XC) ~ sprintf("<audio src=\"../data/noumenon/audio/%s - %s.mp3\" type=\"audio/mp3\" autoplay controls></audio>", XC, NOUMENON),
-                         is.na(XC) ~ NA_character_) )
+mapkey <- read.csv("data/noumenon/key.csv", colClasses="character", na.strings="") %>%   # import metadata and create HTML tag for referencing local audio files (when available)
+    mutate(SRC=case_when(!is.na(XC) ~ sprintf("<audio src=\"%s\" type=\"audio/mp3\" autoplay controls></audio>", SRC),
+                         is.na(XC) ~ NA_character_))
 
-mapkey$SRC <- ifelse(is.na(mapkey$SRC),NA_character_,"<audio src\"https://xeno-canto.org/sounds/uploaded/JRPEHMSIPP/XC549229-OCB_409914_D9_20190519_063000_UPSA.mp3\" type=\"audio/mp3\" autoplay controls></audio>")
-
-eco <- read_sf("../data/noumenon/spatial/ecoregions") %>% st_transform(4326) %>%            # import spatial data (smoothed from raw EPA shapefile using Visvalingam/weighted area simplification at mapshaper.org)
+eco <- read_sf("data/noumenon/spatial/ecoregions") %>% st_transform(4326) %>%   # import spatial data (smoothed from raw EPA shapefile using Visvalingam/weighted area simplification at mapshaper.org)
     mutate( NOUMENON=mapkey$NOUMENON[match(NA_L2CODE,mapkey$NA_L2CODE)],        # match polygons to metadata: species name
             AUDIO=mapkey$SRC[match(NA_L2CODE,mapkey$NA_L2CODE)],                #                             audio HTML tag
             XC=mapkey$XC[match(NA_L2CODE,mapkey$NA_L2CODE)],                    #                             xeno-canto file ID
@@ -36,7 +34,7 @@ eco <- read_sf("../data/noumenon/spatial/ecoregions") %>% st_transform(4326) %>%
                 TRUE ~ NA_character_
             ))
 
-load("../data/noumenon/spatial/political.RData")                                            # import state/province boundaries (from rnaturalearthhires)
+load("data/noumenon/spatial/political.RData")                                   # import state/province boundaries (from rnaturalearthhires)
 
 epsg2163 <- leafletCRS(                                                         # create CRS for Lambert azimuthal equal-area projection
     crsClass = "L.Proj.CRS",
@@ -109,5 +107,5 @@ leaflet(eco, options=leafletOptions(crs=epsg2163)) %>%
     icon = "fa-info", title = "Map Information", position="topright", 
     onClick = JS("function(btn, map){ $('#infobox').modal('show'); }")
   )) %>% # Trigger the infobox
-  htmlwidgets::appendContent(info.box) %>% 
-  htmlwidgets::appendContent(splash.box)
+  htmlwidgets::appendContent(info.box)# %>% 
+  # htmlwidgets::appendContent(splash.box)
