@@ -65,6 +65,15 @@ B.S., 2014. University of Nebraska–Lincoln. Lincoln, NE.
     </item>
     
     <item>
+      <title></title>
+      <link>https://irhoppe.github.io/noumenonau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhoppe.github.io/noumenonau/</guid>
+      <description>body{background-color:white;}(function() {// If window.HTMLWidgets is already defined, then use it; otherwise create a// new object. This allows preceding code to set options that affect the// initialization process (though none currently exist).window.HTMLWidgets = window.HTMLWidgets || {};// See if we&#39;re running in a viewer pane. If not, we&#39;re in a web browser.var viewerMode = window.HTMLWidgets.viewerMode =/\bviewer_pane=1\b/.test(window.location);// See if we&#39;re running in Shiny mode.</description>
+    </item>
+    
+    <item>
       <title>Lines of note</title>
       <link>https://irhoppe.github.io/lines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

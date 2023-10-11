@@ -47,11 +47,13 @@ er_pal <- colorFactor(mapkey$COLOR, domain=mapkey$NA_L2CODE, ordered=TRUE, na.co
 
 splash.box <- HTML(paste0(
   HTML(
-    '<div class="modal fade" id="infobox" role="dialog"><div class="modal-dialog"><!-- Modal content--><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button>'
+    '<div class="modal fade" id="splashbox" role="dialog"><div class="modal-dialog"><!-- Modal content--><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button>'
   ), 
   
   HTML("NUMENA OF NORTH AMERICA"), 
-  
+  HTML(
+    '</div><div class="modal-body">'
+  ), 
   HTML(
     "<em>nu<b>&middot;</b>me<b>&middot;</b>non</em>
             <br/><br/>
@@ -93,6 +95,32 @@ info.box <- HTML(paste0(
   HTML('</div><div class="modal-footer"></div></div>')
 ))
 
+# Define HTML for the infobox
+splash.box <- HTML(paste0(
+  HTML(
+    '<div class="modal fade" id="splashbox" role="dialog"><div class="modal-dialog"><!-- Modal content--><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button>'
+  ),
+  
+  # Header / Title
+  HTML("NUMENA OF NORTH AMERICA"),
+  HTML(
+    '</div><div class="modal-body">'
+  ),
+  
+  # Body
+  HTML("<h4>An audiovisual guide to the avian soul of North America.</h4>
+       From the minds of <a href=https://twitter.com/BenGFreeman1/status/1382011326784937984>Ethan Linck and Ben Freeman</a>, inspired by <a href=https://sora.unm.edu/sites/default/files/journals/condor/v039n01/p0009-p0010.pdf>Aldo Leopold's (1937)</a> description of \"the numenon of the Sierra Madre: the thick-billed parrot\".<br/>
+                <br/><div style=\"float:left;\">
+                Spatial data: <a href=https://www.epa.gov/eco-research/ecoregions-north-america>U. S. Environmental Protection Agency</a>
+                <br/>
+                <div style=\"float:left;\">
+                Audio: <a href=https://www.xeno-canto.org>xeno-canto</a>
+                </div>"),
+  
+  # Closing divs
+  HTML('</div><div class="modal-footer"></div></div>')
+))
+
 leaflet(eco, options=leafletOptions(crs=epsg2163)) %>% 
   addBootstrapDependency() %>% 
   htmlwidgets::prependContent(tags$style(".leaflet-container {background:#ffffff; }")) %>% 
@@ -107,5 +135,9 @@ leaflet(eco, options=leafletOptions(crs=epsg2163)) %>%
     icon = "fa-info", title = "Map Information", position="topright", 
     onClick = JS("function(btn, map){ $('#infobox').modal('show'); }")
   )) %>% # Trigger the infobox
-  htmlwidgets::appendContent(info.box)# %>% 
-  # htmlwidgets::appendContent(splash.box)
+  htmlwidgets::appendContent(info.box) %>%
+  # htmlwidgets::appendContent(splash.box, info.box) %>% # <--- Seems not to work with 2 appendices...splash.box must come first, but 
+                                                         #        when loading info.box then goes dark
+  htmlwidgets::onRender("
+    function(map){ $('#splashbox').modal('show'); }
+  ")
