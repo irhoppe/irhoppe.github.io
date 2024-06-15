@@ -103,7 +103,7 @@ splash.box <- HTML(paste0(
   HTML("<h4>An audiovisual guide to the avian soul of Australia.</h4>
        From the minds of <a href=https://twitter.com/BenGFreeman1/status/1382011326784937984>Ethan Linck and Ben Freeman</a>, inspired by <a href=https://sora.unm.edu/sites/default/files/journals/condor/v039n01/p0009-p0010.pdf>Aldo Leopold's (1937)</a> description of \"the numenon of the Sierra Madre: the thick-billed parrot\".<br/>
                 <br/><div style=\"float:left;\">
-                Spatial data: <a href=https://www.epa.gov/eco-research/ecoregions-north-america>U. S. Environmental Protection Agency</a>
+                Spatial data: <a href=https://www.dcceew.gov.au/environment/land/nrs/science/ibra>Department of Climate Change, Energy, the Environment and Water</a>
                 <br/>
                 <div style=\"float:left;\">
                 Audio: <a href=https://www.xeno-canto.org>xeno-canto</a>
@@ -116,7 +116,7 @@ splash.box <- HTML(paste0(
 leaflet(eco, options=leafletOptions(crs=epsg3577)) %>% 
   addBootstrapDependency() %>% 
   htmlwidgets::prependContent(tags$style(".leaflet-container {background:#ffffff; }")) %>% 
-  setView(lng=134.3619, lat=-25.6094, zoom=3) %>%
+  setView(lng=134.3619, lat=-25.6094, zoom=4) %>%
   addPolygons(fillColor=~er_pal(REG_CODE_7), fillOpacity=1,                 # ecoregion polygons
               color="#272727", weight=1, 
               popup=~LABEL) %>% 
