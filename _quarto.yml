@@ -13,7 +13,7 @@ website:
   back-to-top-navigation: true
   
   navbar:
-    logo: assets/ian/img/pbfw-m.svg
+    logo: https://res.cloudinary.com/sternula/image/upload/v1696498427/pbfw-m_dtqo8y.svg
     tools:
     - icon: github
       href: https://www.github.com/irhoppe/irhoppe.github.io
