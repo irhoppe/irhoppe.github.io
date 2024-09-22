@@ -2,7 +2,7 @@
 title: "Ian Hoppe"
 pagetitle: "Ian Hoppe"
 subtitle: "PhD Candidate at Monash University"
-image: assets/ian/img/flock-network.png
+image: https://res.cloudinary.com/sternula/image/upload/v1659862476/net1_hnpvzx.png
 image-alt: "Network graph of mixed-species bird flock participation"
 
 about:
