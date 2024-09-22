@@ -23,9 +23,7 @@ For my <a href="#" data-toggle="tooltip" title="masters? masters'?">master's</a>
 
 We captured collected small blood samples from 889 individuals of 23 different species, which we then tested for haemosporidian blood parasite infection. Transmitted between individuals by mosquitoes and other insect vectors, haemosporidians can cause disease similar to malaria in birds, and have been identified as a key factor in the decline of some of Hawai'i's native avifauna. Most species that we tested appeared to be free of infection. Among the species that did have infections, we found substantial variation in the prevalence of blood parasite infections.
 
-```{r fig.cap="Prevalence of haemosporidian infections among 8 bird species at Brookfield Conservation Park."}
-knitr::include_graphics("https://res.cloudinary.com/sternula/image/upload/v1659861831/prev-fig_poster_kegium.png")
-```
+![Prevalence of haemosporidian infections among 8 bird species at Brookfield Conservation Park.](https://res.cloudinary.com/sternula/image/upload/v1659861831/prev-fig_poster_kegium.png)
 
 During the same period, we (mostly Laura!) spent hours watching mixed-species foraging flocks, making note of the numbers of individuals of each species involved, their foraging height, and other details. From these observations, we constructed a foraging network model of the avian community at Brookfield, using the **frequency** and **intensity** (as measured by the number of individuals of each species present during each encounter) of co-occurrences in foraging flocks as an index of association. From this network we were able to infer which species *might* be at highest risk of infection, *if* the hypothesis (that social interactions in the form of flocking behavior increase the risk of acquiring infection) was true.
 
