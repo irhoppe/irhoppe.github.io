@@ -1,0 +1,32 @@
+---
+title: "Contact Me {{< fa paper-plane >}}"
+---
+
+::: {.grid}
+
+::: {.g-col-1}
+:::
+
+::: {.g-col-10 #form}
+
+<form action="https://formspree.io/f/xrbzyeep" method="POST" accept-charset="utf-8">
+
+
+<label for="full-name">Full Name</label>
+<input type="text" name="name" id="full-name" class="form-control" placeholder="First and Last" required>
+
+<label for="email-address">Email Address</label>
+<input type="email" name="_replyto" id="email-address" class="form-control" placeholder="your@email.here" required>
+
+<label for="message">Message</label>
+  <textarea rows="6" name="message" id="message" class="form-control" placeholder="Enter Message" required></textarea>
+
+<button type="submit" class="btn btn-primary mt-4">Send {{< fa paper-plane >}}</button>
+</form>
+
+:::
+
+::: {.g-col-1}
+:::
+
+:::

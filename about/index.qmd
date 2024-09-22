@@ -1,0 +1,48 @@
+---
+title: "Ian Hoppe"
+pagetitle: "Ian Hoppe | About"
+subtitle: PhD Candidate, Monash University
+image: https://res.cloudinary.com/sternula/image/upload/v1499376389/35_crop_abpkgq.jpg
+about:
+  template: trestles
+  image-width: 30em
+  image-shape: rounded
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: "GitHub"
+      href: https://github.com/irhoppe
+    - icon: stack-overflow
+      aria-label: "StackOverflow"
+      href: https://stackoverflow.com/users/7352002/ian-hoppe
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://au.linkedin.com/in/ian-hoppe-65ab93b0
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-6482-2386
+    - text: "{{< ai google-scholar >}}"
+      aria-label: "Google Scholar"
+      href: https://scholar.google.com/citations?user=mENVqBsAAAAJ
+    - icon: binoculars-fill
+      aria-label: "eBird"
+      href: https://ebird.org/profile/Mjg5NDYy
+format: 
+  html: 
+    page-layout: full
+
+header-includes: >
+  <link rel="stylesheet" href="../assets/about.css">
+resources:
+  - ../assets/about.css
+---
+
+::: {#hero-heading}
+<div class="h1">Tinani!</div>
+
+I'm an ecologist. I combine field, lab and computational methods to try to understand what threatens wildlife populations and what makes them thrive. At present, I'm a PhD candidate in the [Behavioural & Evolutionary Ecology of Birds](https://petersresearchgroup.org/) research group at Monash University, where I study population dynamics and conservation, focussing on the [purple-crowned fairy-wren](https://ebird.org/species/pucfai2).
+
+<br><br>
+
+<center><img src="https://res.cloudinary.com/sternula/image/upload/v1696498459/pcfw_g1jx5d.svg" height="120px"></center>
+
+:::

@@ -1,0 +1,52 @@
+---
+title: "Ian Hoppe"
+pagetitle: "Ian Hoppe"
+subtitle: "PhD Candidate at Monash University"
+image: assets/ian/img/flock-network.png
+image-alt: "Network graph of mixed-species bird flock participation"
+
+about:
+  template: solana
+  image-width: 28em
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: "GitHub"
+      href: https://github.com/irhoppe
+    - icon: stack-overflow
+      aria-label: "StackOverflow"
+      href: https://stackoverflow.com/users/7352002/ian-hoppe
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://au.linkedin.com/in/ian-hoppe-65ab93b0
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-6482-2386
+    - text: "{{< ai google-scholar >}}"
+      aria-label: "Google Scholar"
+      href: https://scholar.google.com/citations?user=mENVqBsAAAAJ
+    - icon: binoculars-fill
+      aria-label: "eBird"
+      href: https://ebird.org/profile/Mjg5NDYy
+page-layout: full
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+
+header-includes: >
+  <link rel="stylesheet" href="assets/index.css">
+resources:
+  - assets/index.css
+---
+
+<br><br>
+
+::: {#hero-heading}
+
+I am an ecologist and a naturalist.<br>I apply quantitative analytical tools to advance understanding and promote conservation of natural resources.
+
+[Learn more about me &rarr;](/about)
+
+:::
+<!-- hero-heading -->

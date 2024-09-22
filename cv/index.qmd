@@ -1,0 +1,222 @@
+---
+pagetitle: "Ian Hoppe | CV"
+image: assets/avatar.png
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: rounded
+  id: hero-heading
+format: html
+header-includes: >
+  <link rel="stylesheet" href="../assets/styles.css">
+---
+
+:::{#hero-heading}
+
+### Ian Hoppe [{{< ai orcid >}}](https://orcid.org/0000-0001-6482-2386){style="color:#a7cd3c;"}
+
+PhD candidate  
+School of Biological Sciences  
+Monash University  
+{{< fa envelope >}}: <ian.hoppe@monash.edu>  
+{{< fa globe >}}: <https://irhoppe.github.io/>
+
+### Education
+
+M.Sc., 2021. **University of Nebraska–Lincoln**. Lincoln, NE.  
+B.Sc., 2014. **University of Nebraska–Lincoln**. Lincoln, NE.
+
+:::
+
+:::{.grid}
+
+:::{.g-col-6}
+
+## Interests^[(In no particular order)]
+
+[ornithology]{.i-tag}
+[quantitative ecology]{.i-tag}
+[animal behaviour]{.i-tag}
+[wildlife epidemiology]{.i-tag}
+[conservation]{.i-tag}
+[Bayesian statistics]{.i-tag}
+[natural history]{.i-tag}
+[cartography]{.i-tag}
+[data visualisation]{.i-tag}
+[cruciverbalism]{.i-tag}
+
+:::
+
+:::{.g-col-6}
+
+## Languages
+
+<a href="https://www.r-project.org/"><img src="assets/R-logo.svg" alt="R programming language" height="40px"></a>
+<a href="https://mc-stan.org/"><img src="assets/Stan-logo.svg" alt="Stan modeling language" height="40px"></a>
+
+:::
+
+:::{.g-col-12}
+
+## Publications
+
+### Articles
+
+LN Vander Meiden, **IR Hoppe**, D Shizuka, & AE Johnson (2024) Behavioural plasticity shapes participation in a mixed-species flocking community of birds. *Animal Behaviour* **217**:1–11. [10.1016/j.anbehav.2024.08.018](https://doi.org/10.1016/j.anbehav.2024.08.018)
+
+AE Johnson, JF Welklin, **IR Hoppe**, & D Shizuka (2023) Ecogeography of group size suggests differences in drivers of sociality among cooperatively breeding fairywrens. *Proceedings of the Royal Society B* **290**:20222397. [10.1098/rspb.2022.2397](https://doi.org/10.1098/rspb.2022.2397)
+
+**IR Hoppe**, AE Johnson, & E VanWormer (2022) Haemosporidian parasite diversity in an under-surveyed Australian avifauna. *Emu* **122**:186–192. [10.1080/01584197.2022.2105722](https://doi.org/10.1080/01584197.2022.2105722)
+
+JA Jones, KJ Odom, **IR Hoppe**, D Nason, S Ketaloya, & J Karubian (2021) Correlated evolution of distinct signals associated with increased social selection in female white-shouldered fairywrens. *Ecology and Evolution* **11**:17352–17363. [10.1002/ece3.8370](https://doi.org/10.1002/ece3.8370)
+
+**IR Hoppe**, J Olney Harrison, EJ Raynor IV, M Bomberger Brown, LA Powell, & AJ Tyre (2019) Temperature, wind, vegetation, and roads influence incubation patterns of greater prairie-chickens (*Tympanuchus cupido pinnatus*) in the Nebraska Sandhills, USA. *Canadian Journal of Zoology* **97**:91–99. [10.1139/cjz-2018-0130](https://doi.org/10.1139/cjz-2018-0130)
+
+### Conference presentations [^\*^Presenting author]{style="float:right;"}
+
+AE Johnson, JF Welklin, **IR Hoppe**^\*^, & D Shizuka (2023) Harnessing intra- and interspecific variation in group size to elucidate ecological correlates of cooperative breeding. *Australasian Ornithological Conference*, Brisbane, Australia.
+
+**IR Hoppe**^\*^, N Teunissen, ML Hall, & A Peters (2023) Social and ecological predictors of nest survival in a tropical riparian songbird. *Australasian Ornithological Conference*, Brisbane, Australia.
+
+AE Johnson^\*^, JF Welklin, **IR Hoppe**, & D Shizuka (2021) Slight differences, dramatic consequences: contrasting patterns of sociality along an environmental gradient in two cooperatively breeding species. *American Ornithological Society Annual Meeting*, Virtual event.
+
+### Posters
+
+**IR Hoppe**^\*^ & AE Johnson (2019) Nest survival in the cooperatively-breeding purple-backed fairywren. *American Ornithological Society Annual Meeting*, Anchorage, AK.
+
+**IR Hoppe**, J Olney Harrison, EJ Raynor IV, M Bomberger Brown^\*^, LA Powell, & AJ Tyre (2018) Time and environment influence incubation by greater prairie-chickens in the Nebraska Sandhills, USA. *International Ornithological Congress*, Vancouver, Canada.
+
+**IR Hoppe**^\*^ & LA Powell (2013) Evaluating asymmetry in a Sandhills population of western painted turtles. *Nebraska Natural Legacy Conference*, Nebraska City, NE.
+
+### Public talks
+
+**IR Hoppe**. 2015. Report on ornithological field research at Brookfield Conservation Park. *Wahoo Bird Club*, Wahoo, NE.
+
+## Experience
+
+### Research appointments
+
+Graduate research assistant. 1/2019–8/2021. Social and ecological correlates of avian infection by haemosporidian blood parasites. School of Natural Resources, University of Nebraska–Lincoln.
+
+Research assistant. 11/2015–8/2018. Various projects in OneHealth and wildlife disease ecology. School of Natural Resources, University of Nebraska–Lincoln.
+
+Research associate. 12/2016–3/2017. Nest attendance by greater prairie-chickens in the Nebraska Sandhills. School of Natural Resources, University of Nebraska–Lincoln.
+
+Research assistant. 2–5/2015. Visualizing large-scale avian movements using polarimetric radar and citizen science reporting. Department of Earth and Atmospheric Sciences, University of Nebraska–Lincoln.
+
+Undergraduate researcher. 6/2013–5/2014. Effects of wind turbine operation on vocal communication in the greater prairie-chicken. School of Natural Resources, University of Nebraska–Lincoln.
+
+Undergraduate researcher. 6/2012–5/2013. Morphological asymmetry in a population of painted turtles in the Nebraska Sandhills. School of Natural Resources, University of Nebraska–Lincoln.
+
+NSF REU student. 6–8/2011. Spectral characteristics of vocalizations by captive tigers. Boys Town National Research Hospital.
+
+### Teaching experience
+
+**Biology of Australian Vertebrates**. Semester 2 2024. Teaching/Lab assistant. School of Biological Sciences, Monash University.  
+**Biology of Australian Vertebrates**. Semester 2 2023. Teaching/Lab assistant. School of Biological Sciences, Monash University.  
+**Biology of Australian Vertebrates**. Semester 2 2022. Teaching/Lab assistant. School of Biological Sciences, Monash University.  
+**Mammalogy**. Fall 2016. Teaching/Lab assistant. School of Biological Sciences, University of Nebraska–Lincoln.  
+**Wildlife management techniques**. Fall break 2016. Teaching assistant. School of Natural Resources, University of Nebraska–Lincoln.  
+**Vertebrate zoology**. Spring 2016. Teaching/Lab assistant. School of Biological Sciences, University of Nebraska–Lincoln.  
+**Wildlife management techniques**. Fall break 2013. Teaching assistant. School of Natural Resources, University of Nebraska–Lincoln.
+
+### Field experience
+
+*Bass Strait*, Victoria, Australia. 2024. Pelagic bird survey.  
+*Central Kimberley*, Western Australia, Australia. 2024. Mist netting, banding, nest searching, and behavioural observations.  
+*Murray Mallee*, South Australia, Australia. 2023. Mist netting, banding, and behavioural observations.  
+*Central Kimberley*, Western Australia, Australia. 2023. Mist netting, banding, nest searching and behavioural observations.  
+*Central Kimberley*, Western Australia, Australia. 2022. Mist netting, banding, nest searching and behavioural observations.  
+*West Wimmera*, Victoria, Australia. 2022. Avian point counts.  
+*Lower Platte River Valley*, Nebraska, USA. 2021. Nest searching and monitoring; ecological surveys.  
+*Murray Mallee*, South Australia, Australia. 2019. Mist netting, banding, and behavioural observations.  
+*Murray Mallee*, South Australia, Australia. 2018. Nest searching, mist netting, banding, and behavioural observations.  
+*Southern Lowlands*, Western Province, Papua New Guinea. 2018. Mist netting, banding, and behavioural observations.  
+*North Coast*, Milne Bay Province, Papua New Guinea. 2018. Mist netting, banding, and behavioural observations  
+*Murray Mallee*, South Australia, Australia. 2017. Nest searching, mist netting, banding, and behavioural observations.  
+*North Coast*, Milne Bay Province, Papua New Guinea. 2017. Mist netting, banding, and behavioural observations.  
+*Southern Lowlands*, Western Province, Papua New Guinea. 2017. Mist netting, banding, and behavioural observations.  
+*E Nebraska*, USA. 2016. Bat netting.  
+*E Nebraska*, USA. 2016. Small mammal trapping.  
+*Murray Mallee*, South Australia, Australia. 2014. Nest searching, mist netting, banding, and behavioural observations.  
+*Lower Platte River Valley*, Nebraska, USA. 2013. Nest searching and monitoring; avian capture and banding.  
+*Lower Platte River Valley*, Nebraska, USA. 2012. Nest searching and monitoring; avian capture and banding.
+
+## Plaudits
+
+### Grants & Awards
+
+**Holsworth Wildlife Research Fellowship**. 2024. AU $8,480.  
+**Holsworth Wildlife Research Fellowship**. 2023. AU $6,000.  
+**Wildlife Health and Disease Grant Challenge**. 2019. US $6,051.  
+**American Ornithological Society Student Travel Award**. 2019. US $580.  
+**UNL Undergraduate Creative Activities and Research Experiences**. 2013. US $2,000.  
+**Wendell F. and Marie L. Cox Memorial Fund Scholarship**. 2013. US $619.  
+**UNL Undergraduate Creative Activities and Research Experiences**. 2012. US $2,000.  
+**Albert C. and Katherine Wehr Memorial Fund Scholarship**. 2012. US $1,243.  
+**David and Annie Larrick Student Support Fund Scholarship**. 2011. US $1,000.  
+**David and Annie Larrick Student Support Fund Scholarship**. 2010. US $1,000.  
+**Jerome and Ruth Wood Memorial Fund Scholarship**. 2009.  
+**UNL-SNR Wildwood Trust Fund Scholarship**. 2009–2013. US $5,000.  
+**UNL Honors Textbook Scholarship**. 2009–2013. US $2,000.  
+**UNL National Merit Scholarship**. 2009–2013. US $8,000.  
+**National Merit Scholarship**. 2009–2013.
+
+### Honors
+
+**Chancellor’s Scholar**, University of Nebraska–Lincoln. 2014.  
+**Arthur von Bergen Memorial Award**, Gamma Sigma Delta (Nebraska Chapter). 2014.  
+**National Merit Scholar**. 2009.
+
+## Other
+
+### Licenses and certifications
+
+{{< fa crow >}} **A-Class Banding Authority**, Australian Bird and Bat Banding Scheme (issued May 2022)  
+{{< fa truck-monster >}} **Operation and Recovery of 4WD Vehicles** (FWPCOT3259, FWPFGM3215, FWPCOT3260; issued Nov 2022)  
+{{< fa briefcase-medical >}} **Wilderness First Aid** (SISS00126; issued Oct 2023)  
+{{< fa bandage >}} **Basic First Aid** (HLTAID011; issued Jul 2022)
+
+### Professional service
+
+**Editorial assistant**. 2013–2017. *Wilson Journal of Ornithology*.  
+**Peer reviewer** for *Australian Field Ornithology*, *Behavioral Ecology*, *Wilson Journal of Ornithology*.
+
+### Press coverage
+
+**Australian Geographic**, 2023. [Endangered fairy-wrens survive Kimberley floods](https://www.australiangeographic.com.au/news/2023/06/endangered-fairy-wrens-survive-kimberley-floods/)
+
+### Volunteer experience
+
+**Bird bander**. 2019–2021. *D Shizuka/School of Biological Sciences, UNL*, Lincoln, NE.  
+**MAPS banding assistant**. 2015–2019. *R Schmid/Fontenelle Forest Nature Association*, Omaha, NE.  
+**Shiny app developer**. 2016. *AJ Tyre/School of Natural Resources, UNL*, Lincoln, NE.  
+**Collections assistant**. 2012–2015. *PW Freeman & TE Labedz/University of Nebraska State Museum*, Lincoln, NE.
+
+### Outreach
+
+**BioBlitz volunteer**. 2019. Kimmel Orchard/University of Nebraska Extension, Nebraska City, NE.  
+**Banding assistant**. 2015–2019. Fontenelle Forest Nature Association, Omaha, NE.  
+**Event volunteer**, *WeatherFest!*. 2019. School of Natural Resources, Lincoln, NE.  
+**Club leader**, *Garden Gang* (after school nature club). 2013. UNL Environmental Studies Program and Lincoln Public Schools, Lincoln, NE.  
+**Event volunteer**, *Family Nature Nights*. 2013. Lower Platte South Natural Resources District, Lincoln, NE.  
+**Interpretive docent**. 2012. Lincoln Children’s Zoo, Lincoln, NE.  
+**Event volunteer**, *NaturePalooza!*. 2012. School of Natural Resources, Lincoln, NE.
+
+### Society memberships
+
+*Scaphirhynchus* Society  
+BirdLife Australia  
+International Society for Behavioral Ecology  
+Ecological Society of Australia
+
+### Adjunct roles
+
+**Junior ranger**. 2021. Zion National Park, UT.  
+**Junior ranger**. 2019. Denali National Park & Preserve, AK.  
+**Junior ranger**. 2003. Grand Canyon National Park, AZ.
+
+:::
+
+:::
+
