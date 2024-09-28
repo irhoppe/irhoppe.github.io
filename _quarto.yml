@@ -32,10 +32,11 @@ website:
     left: >-
      &#169; 2024 Ian Hoppe
     center: |
-      <a class="link-dark me-1" href="https://github.com/irhoppe" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://github.com/irhoppe" title="GitHub" target="_blank" rel="noopener">{{< fa brands github >}}</a>
       <a class="link-dark me-1" href="https://au.linkedin.com/in/ian-hoppe-65ab93b0" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
-      <a class="link-dark me-1" href="https://orcid.org/0000-0001-6482-2386" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0000-0001-6482-2386" title="ORCiD" target="_blank" rel="noopener">{{< ai orcid >}}</a>
       <a class="link-dark me-1" href="https://scholar.google.com/citations?user=mENVqBsAAAAJ" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+      <a class="link-dark me-1" href="https://ebird.org/profile/Mjg5NDYy" title="eBird" target="_blank" rel="noopener">{{< fa solid binoculars >}}</a>
 
     right: 
       - text: "Contact"
