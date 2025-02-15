@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://irhoppe.github.io/projects/index.html</loc>
-    <lastmod>2024-09-22T03:03:42.581Z</lastmod>
+    <loc>https://irhoppe.github.io/projects/nest-survival.html</loc>
+    <lastmod>2024-10-07T10:03:28.659Z</lastmod>
   </url>
   <url>
-    <loc>https://irhoppe.github.io/cv/index.html</loc>
-    <lastmod>2024-09-21T08:47:08.291Z</lastmod>
-  </url>
-  <url>
-    <loc>https://irhoppe.github.io/about/index.html</loc>
-    <lastmod>2024-09-21T08:59:52.139Z</lastmod>
+    <loc>https://irhoppe.github.io/index.html</loc>
+    <lastmod>2024-09-22T02:42:12.525Z</lastmod>
   </url>
   <url>
     <loc>https://irhoppe.github.io/contact.html</loc>
     <lastmod>2024-08-31T06:11:00.710Z</lastmod>
   </url>
   <url>
-    <loc>https://irhoppe.github.io/index.html</loc>
-    <lastmod>2024-09-22T02:42:12.525Z</lastmod>
+    <loc>https://irhoppe.github.io/about/index.html</loc>
+    <lastmod>2024-09-21T08:59:52.139Z</lastmod>
+  </url>
+  <url>
+    <loc>https://irhoppe.github.io/cv/index.html</loc>
+    <lastmod>2025-02-15T02:30:14.843Z</lastmod>
+  </url>
+  <url>
+    <loc>https://irhoppe.github.io/projects/index.html</loc>
+    <lastmod>2024-09-22T03:03:42.581Z</lastmod>
   </url>
 </urlset>
